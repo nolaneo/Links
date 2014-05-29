@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Edge" syncable="YES">
+        <attribute name="positions" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="left" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+        <relationship name="right" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+    </entity>
+    <entity name="EdgeList" syncable="YES">
+        <relationship name="edges" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Edge" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Node" inverseName="edges" inverseEntity="Node" syncable="YES"/>
+    </entity>
+    <entity name="Node" syncable="YES">
+        <attribute name="frequency" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="key" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="positions" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="proportional" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="edges" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EdgeList" inverseName="parent" inverseEntity="EdgeList" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Edge" positionX="-36" positionY="30" width="128" height="103"/>
+        <element name="EdgeList" positionX="180" positionY="-153" width="128" height="73"/>
+        <element name="Node" positionX="-209" positionY="-222" width="128" height="148"/>
+    </elements>
+</model>

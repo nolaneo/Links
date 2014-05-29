@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CD3D9891-3D44-4ACC-89CA-5BBEA04CD2FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Links</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F81A10F-BC31-4481-A6BB-57DD289F81E6</key>
+		<string>https://github.com/nolaneo/Code.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Links/Links.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F81A10F-BC31-4481-A6BB-57DD289F81E6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nolaneo/Code.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F81A10F-BC31-4481-A6BB-57DD289F81E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F81A10F-BC31-4481-A6BB-57DD289F81E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Code</string>
+		</dict>
+	</array>
+</dict>
+</plist>
